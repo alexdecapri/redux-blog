@@ -26666,7 +26666,7 @@
 	var FETCH_POST = exports.FETCH_POST = 'FETCH_POST';
 	var DELETE_POST = exports.DELETE_POST = 'DELETE_POST';
 
-	var ROOT_URL = 'http://reduxblog.herokuapp.com/api';
+	var ROOT_URL = 'https://reduxblog.herokuapp.com/api';
 	var API_KEY = '?key=xQkNBGfI2c';
 
 	function fetchPosts() {
