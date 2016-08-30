@@ -7,7 +7,7 @@ var port  = process.env.PORT ? JSON.parse(process.env.PORT) : 8080;
 console.log('-- port:  ' + port);
 
 var app  = express();
-var root = __dirname + '/build';
+var root = __dirname + '/';
 
 // Use enforce.HTTPS({ trustProtoHeader: true }) in case you are behind
 // a load balancer (e.g. Heroku). See further comments below
